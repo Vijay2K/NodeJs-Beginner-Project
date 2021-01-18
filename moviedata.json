@@ -1,0 +1,37 @@
+{
+    "ACTION" : {
+        "name" : "ACTION",
+        "Movies" : [
+            {
+                "name" : "Fast and Furious",
+                "rating" : 4.5
+            },
+            {
+                "name" : "Sky Fall",
+                "rating" : 5
+            },
+            {
+                "name" : "Avengers",
+                "rating" : 4.8
+            }
+        ]
+    },
+
+    "HORROR" : {
+        "name" : "HORROR",
+        "Movies" : [
+            {
+                "name" : "Conjuring",
+                "rating" : 5
+            },
+            {
+                "name" : "Mirror",
+                "rating" : 4.4
+            },
+            {
+                "name" : "Lights Out",
+                "rating" : 5
+            }
+        ]
+    }
+}

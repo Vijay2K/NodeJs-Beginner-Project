@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("partial/head") %> 
+<body>
+    <%- include("partial/nav") %>
+    <h1>Popular movies at <%= name %> category</h1>
+    <div class="container">
+        <ul>
+            <% for(let movie of Movies) { %>
+                <li><%= `Movie name : ${movie.name.toUpperCase()} and Rating : ${movie.rating}` %> </li>
+            <% } %>  
+        </ul>
+    </div> 
+</body>
+</html>

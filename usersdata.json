@@ -1,0 +1,47 @@
+{
+    "vijay" : {
+        "name" : "Vijay",
+        "age" : 20,
+        "sex" : "Male",
+        "email" : "vjvijay@gmail.com",
+        "id" : "vj09@05",
+        "role" : "software engineer",
+        "projects" : [
+            {
+                "name" : "MossyWalk",
+                "language" : "C#"
+            },
+            {
+                "name" : "Facebook clone",
+                "language" : "Javascript"
+            },
+            {
+                "name" : "Twitter Clone",
+                "language" : "node.js"
+            }
+        ]      
+    },
+    "elliot" : {
+        "name" : "Elliot",
+        "age" : 25,
+        "sex" : "Male",
+        "email" : "elliot05@gmail.com",
+        "id" : "elliot777",
+        "role" : "cyber security engineer",
+        "projects" : [
+            {
+                "name" : "pentesting",
+                "language" : "python" 
+            },
+            {
+                "name" : "malware code",
+                "language" : "python"
+            },
+            {
+                "name" : "Rasberry Pi",
+                "language" : "python"
+            }
+        ]     
+    }
+    
+}

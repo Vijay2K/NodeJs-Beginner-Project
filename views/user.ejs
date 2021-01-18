@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("partial/head") %> 
+<body>
+    <%- include("partial/nav") %> 
+    <!-- using ejs syntax -->
+    <h1>Getting <%= name %>  information</h1>
+    <div class="container">
+        <ul>
+            <li>age : <b><%= age %></b></li>
+            <li>role : <b><%= role %></b></li>
+            <li>sex : <b><%= sex %></b></li>
+            <li>email : <b><%= email %></b></li>
+        </ul>
+        <h4>Projects</h4>
+        <ul>
+            <% for(let project of projects) { %>
+                <li><%= `project name : ${project.name.toUpperCase()} and language used : ${project.language.toUpperCase()}` %> </li>
+            <% } %>      
+        </ul>
+    </div>  
+</body>
+</html>
